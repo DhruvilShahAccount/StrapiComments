@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_pages",
+  "info": {
+    "singularName": "blog-page",
+    "pluralName": "blog-pages",
+    "displayName": "BlogPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url1": {
+      "type": "string"
+    },
+    "url2": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "h1desc": {
+      "type": "text"
+    },
+    "p1": {
+      "type": "text"
+    },
+    "p2": {
+      "type": "text"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "p3": {
+      "type": "text"
+    },
+    "p4": {
+      "type": "text"
+    },
+    "p5": {
+      "type": "text"
+    },
+    "h2": {
+      "type": "string"
+    },
+    "h3": {
+      "type": "string"
+    },
+    "h4": {
+      "type": "string"
+    },
+    "h5": {
+      "type": "string"
+    },
+    "p6": {
+      "type": "text"
+    },
+    "p7": {
+      "type": "text"
+    },
+    "p8": {
+      "type": "text"
+    },
+    "p9": {
+      "type": "text"
+    },
+    "p10": {
+      "type": "text"
+    },
+    "p11": {
+      "type": "text"
+    },
+    "p12": {
+      "type": "text"
+    },
+    "p13": {
+      "type": "text"
+    },
+    "p14": {
+      "type": "text"
+    },
+    "p15": {
+      "type": "text"
+    },
+    "p16": {
+      "type": "text"
+    },
+    "homeUrl": {
+      "type": "string"
+    },
+    "wisdomUrl": {
+      "type": "string"
+    },
+    "wisdomArticlesUrl": {
+      "type": "string"
+    },
+    "pujyaGurudevshriUrl": {
+      "type": "string"
+    },
+    "pujyaGurudevshriInsights": {
+      "type": "string"
+    }
+  }
+}

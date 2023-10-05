@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "emailId": {
+      "type": "email",
+      "required": false
+    },
+    "commentDesc": {
+      "type": "text",
+      "required": false
+    },
+    "website": {
+      "type": "string"
+    },
+    "commentId": {
+      "type": "integer",
+      "unique": false,
+      "required": false,
+      "default": 1
+    },
+    "profilePicture": {
+      "type": "string"
+    }
+  }
+}
